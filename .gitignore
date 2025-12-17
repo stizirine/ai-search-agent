@@ -1,0 +1,7 @@
+# Fichiers secrets (NE JAMAIS PARTAGER)
+.env
+
+# Dossiers systèmes et Python inutiles
+venv/
+__pycache__/
+.DS_Store
