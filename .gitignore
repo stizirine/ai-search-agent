@@ -5,3 +5,17 @@
 venv/
 __pycache__/
 .DS_Store
+
+# Fichiers de cache
+*.cache
+.cache/
+.cache/**
+**/*.cache
+**/.cache/
+
+# Cache Streamlit
+.streamlit/
+
+# Cache LangChain/LangSmith
+.langchain/
+.langsmith/
