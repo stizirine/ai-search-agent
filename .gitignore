@@ -4,6 +4,10 @@
 # Dossiers systèmes et Python inutiles
 venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 .DS_Store
 
 # Fichiers de cache
@@ -12,10 +16,26 @@ __pycache__/
 .cache/**
 **/*.cache
 **/.cache/
+**/__pycache__/
 
 # Cache Streamlit
 .streamlit/
+.streamlit/**/*
 
 # Cache LangChain/LangSmith
 .langchain/
+.langchain/**/*
 .langsmith/
+.langsmith/**/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build et distributions
+build/
+dist/
+*.egg-info/
